@@ -13,7 +13,6 @@ public class Palindrome2 {
 	    {
 	    strrev=strrev+text.charAt(i);
 	    }
-	System.out.println("Reverse of a string is : "+strrev);
 	if(strrev.equalsIgnoreCase(text))
 		System.out.println("Entered string is palindrome");
                else
